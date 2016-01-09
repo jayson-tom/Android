@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/zmbz"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/zmbz"/>
+
+    <ImageView
+        android:id="@+id/zmyy"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toLeftOf="@+id/zmbz"
+        android:layout_centerVertical="true"
+        android:src="@drawable/zmyy"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/zmbz"
+        android:layout_centerVertical="true"
+        android:src="@drawable/zmsg"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/zmbz"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/xlj"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/zmbz"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/zmsp"/>
+
+
+</RelativeLayout>
